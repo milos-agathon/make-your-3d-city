@@ -14,13 +14,12 @@ installed_libraries <- libs %in% rownames(
     installed.packages()
 )
 
-if(
-    any(installed_libraries == F){
-        install.packages(
-            libs[!installed_libraries]
-        )
-    }
-)
+if (
+    any(installed_libraries == F)) {
+    install.packages(
+        libs[!installed_libraries]
+    )
+}
 
 invisible(
     lapply(
