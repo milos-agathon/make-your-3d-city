@@ -48,7 +48,7 @@ lidar_rast <- terra::rast(
 )
 
 ortho_rast <- terra::rast(
-    "https://geotiles.nl/Luchtfoto_2022/RGB_30GZ1.tiff"
+    "https://geotiles.citg.tudelft.nl/Luchtfoto_2023/RGB_30GZ1.tiff"
 )
 
 terra::plotRGB(ortho_rast)
