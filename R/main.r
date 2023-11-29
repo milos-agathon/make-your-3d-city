@@ -152,6 +152,7 @@ lidar_mat |>
     ) |>
     rayshader::plot_3d(
         lidar_mat,
+        baseshape = "circle",
         solid = F,
         zscale = 1,
         zoom = .6,
